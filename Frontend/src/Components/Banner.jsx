@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <>
       <div className="max-w-screen-2xl mx-auto container md:px-20 px-4 flex flex-col md:flex-row my-10">
-        <div className="order-2 md:order-1 w-full md:w-1/2 mt-12 md:mt-32">
+        <div className="order-2 md:order-1 w-full md:w-1/2 mt-12 md:mt-40">
           <div className="space-y-10">
             <h1 className="text-4xl font-bold">
               Hello Wellcome Here To Learn{" "}
@@ -27,11 +27,11 @@ const Banner = () => {
               </svg>
               <input type="text" className="grow" placeholder="Email" />
             </label>
-            <button className="btn btn-secondary">Secondary</button>
+            <button className="btn btn-secondary">Get Started</button>
           </div>
         </div>
           <div className="order-1 w-full md:w-1/2">
-            <img src={banner} className="w-90 h-90 mt-12" alt=""></img>
+            <img src={banner} className="w-90 h-90 mt-10" alt=""></img>
           </div>
       </div>
     </>
